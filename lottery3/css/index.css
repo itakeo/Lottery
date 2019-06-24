@@ -1,0 +1,5 @@
+.game_wrap{width: 240px; height: 80px;box-sizing:  content-box;overflow: hidden;;display: flex;display: -webkit-flex;}
+.game_item{ height: 100%; float: left; margin-left: 5px; flex: 1}
+.game_item:first-child{ margin-left: 0 }
+.game_item ul{height: 100%; transition:  all .3s ease;}
+.game_item li{ list-style: none;width: 100%; height: 100%;text-align: center; position: relative; }
