@@ -1,0 +1,17 @@
+.luckRollBox{margin-bottom: 20px; position: relative;  display:-webkit-flex;display:flex ; background: red; border-radius: 10px; padding: 10px;}
+.luckRollBox,.luckRollBox *{box-sizing: border-box;}
+.luckRollitem{
+  flex: 1 1; height: 100%;overflow: hidden;
+  background: #fff; border-radius: 6px;
+}
+.luckRollitem ul {
+    height: 100%;
+    transition: all .3s ease;
+}
+.luckRollitem li {
+    list-style: none;
+    width: 100%; line-height: 80px;
+    height: 100%; font-size: 70px;
+    text-align: center;
+    position: relative;
+}
